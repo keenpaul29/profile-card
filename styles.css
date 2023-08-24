@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Poppins:wght@100&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://i.pinimg.com/originals/fb/19/f0/fb19f016ecba0560552fb78fff986511.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #163b19bd;
+    
+}
+
+.starter-text {
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-decoration: dotted;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-block-end: 40px;
+
+
+}
+
+.image {
+    position: relative;
+    /* border: 1px solid red; */
+    height: 150px;
+    width: 150px;
+    background-color: color(from rgba(23, 9, 211, 0.863) srgb 30% 100% 200%);
+    border-radius: 50%;
+    padding-left: auto;
+    padding-right: auto;
+    padding: 3px;
+    margin-block-end: 10px;
+}
+
+.image .profile-img {
+    height:9rem;
+    width: 8rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #253625d0;
+
+}
+
+.profile-card {
+    margin-left: auto;
+    margin-right: auto;
+    
+    max-width: 340px;
+    width: 100%;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, alpha) ;
+    border-radius: 24px;
+    padding: 25px;
+    
+}
+.prof-image-and-text {
+    display: flex;
+     /* border: 1px solid black;  */
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.text-data {
+    
+    width: 100%;
+    height: 100%;  
+    padding-left: 30px;
+    
+    /* border: 1px solid blue;   */
+    
+   
+
+}
+
+.text-data .name{
+    font-size: 21px;
+    /* border: 1px solid blue; */
+    /* padding-left: 150px; */
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text-data .job{
+    font-size: 17px;
+    padding-block-start: 10px;
+
+    /*padding-left: 150px;*/
+    font-weight: 500;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    /* border: 1px solid blueviolet; */
+    
+}
+
+
+
+.media-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-block-start: 10px;
+}
+
+
+
+.media-buttons .link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #4070f4;
+    margin: 0 8px;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+
+
+}
